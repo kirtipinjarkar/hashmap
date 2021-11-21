@@ -1,0 +1,34 @@
+# include <iostream>
+using namespace std;
+
+int main() {
+    int op;
+
+    cout << " Select Options : ";
+    cout << " 1 For Heart Disease \n 2 For Cancer \n 3 For Diabetes";
+    cin >> op;
+
+
+    switch(op) {
+        case '1':
+            cout <<" Do This types of activity \n Aerobic activity uses your heart and lungs for a long period of time. It also helps your heart use oxygen better and improves blood flow. You want to make your heart work a little harder every time, but not too hard.
+
+\n Start slowly. Choose an aerobic activity such as walking, swimming, light jogging, or biking. Do this at least 3 to 4 times a week.";
+            break;
+
+        case '2':
+            cout <<" Steps to reduce your risk : \n 1.Don't Use Tobacco \n 2. Protect Your Skin from sun \n 3. Eat Healthy Diet\n ";
+            break;
+
+        case '3':
+            cout << num1 << " Avoid this : \n 1.Cut Sugar and Refined Carbs From Your Diet \n 2. Work Out Regularly \n 3. Drink Water as Your Primary Beverage \n ";
+            break;
+
+        default:
+           
+            cout << "Please Select your desease";
+            break;
+    }
+
+    return 0;
+}
